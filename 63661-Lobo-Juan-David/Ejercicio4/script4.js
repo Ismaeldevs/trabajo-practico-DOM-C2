@@ -1,0 +1,12 @@
+const inputNombre = document.getElementById("inputNombre");
+const preview = document.getElementById("preview");
+
+inputNombre.addEventListener("input", function () {
+    const nombre = inputNombre.value;
+
+    if(nombre === ""){
+        preview.textContent = "Escribe tu nombre arriba";
+    }else{
+        preview.textContent = "Hola, "+ nombre +" Maquina!";
+    }
+});
