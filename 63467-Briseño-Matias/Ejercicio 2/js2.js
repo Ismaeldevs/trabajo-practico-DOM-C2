@@ -14,3 +14,5 @@ btnAmarillo.addEventListener ("click", () => {
 btnVerde.addEventListener ("click", () => {
     cuadrado.style.backgroundColor = "green" ;
 });
+
+//
